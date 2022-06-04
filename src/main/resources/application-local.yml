@@ -1,0 +1,14 @@
+zuul:
+  routes:
+      board:
+        url: http://localhost:8080
+        stripPrefix: false
+      user:
+        url: http://localhost:8080
+        stripPrefix: false
+      comments:
+        url: http://localhost:8080
+        stripPrefix: false
+      alarm:
+        url: http://localhost:8081
+        stripPrefix: false

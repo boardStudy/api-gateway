@@ -3,8 +3,8 @@ zuul:
       board:
         url: http://localhost:8080
         stripPrefix: false
-      user:
-        url: http://localhost:8080
+      users:
+        url: http://localhost:8082
         stripPrefix: false
       comments:
         url: http://localhost:8080
@@ -12,3 +12,4 @@ zuul:
       alarm:
         url: http://localhost:8081
         stripPrefix: false
+

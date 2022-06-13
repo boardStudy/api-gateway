@@ -1,9 +1,15 @@
 spring:
   application:
     name: api-gateway
+# redis 설정
+  session:
+    storage-type: redis
+  redis:
+    host: dev.donghyeon.dev
+    port: 6379
 
 server:
-  port: 8082
+  port: 8083
 
 eureka:
   client:

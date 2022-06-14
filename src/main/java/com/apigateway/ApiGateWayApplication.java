@@ -5,10 +5,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.netflix.zuul.EnableZuulProxy;
 import org.springframework.cloud.netflix.zuul.filters.post.LocationRewriteFilter;
 import org.springframework.context.annotation.Bean;
-import org.springframework.session.data.redis.config.annotation.web.http.EnableRedisHttpSession;
 
 @EnableZuulProxy
-@EnableRedisHttpSession
 @SpringBootApplication
 public class ApiGateWayApplication {
 
